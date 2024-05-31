@@ -78,7 +78,7 @@ public:
     // 作为基类需将析构函数虚拟化
     virtual ~Shape() {}
 };
-
+//
 class Circle: public Shape {
 private:
     double r;
